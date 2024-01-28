@@ -1,0 +1,15 @@
+Question-4
+Write a simple web server in C (not C++) which accepts HTTP requests (eg. GET requests for HTML pages) and return
+responses (eg. HTML pages showing parameters passed with GET request).
+
+Default port for this server is 8080.
+
+Sample code is : sol_4.c
+
+
+Use following command for exection...
+gcc sol_4.c -o sol_4 && ./sol_4
+
+
+Use this URL to send any request...
+http://localhost:8080/

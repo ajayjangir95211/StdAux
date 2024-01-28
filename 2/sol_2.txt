@@ -1,0 +1,14 @@
+Question-2
+How to pass an array using call by value in C ? Assuming array is declared locally that is inside main() ?
+
+
+In C, an array is passed by reference. To pass an array using call by value we can make a new copy of array in called function and make changes to that array.
+We can also use const keyword in called function declaration to avoid making changes in original array.
+
+
+
+Sample code is : sol_2.c
+
+
+Use following command for exection...
+gcc sol_2.c -o sol_2 && ./sol_2

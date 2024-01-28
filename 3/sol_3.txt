@@ -1,0 +1,18 @@
+Question-3
+Which line will show error and why?
+#include<stdio.h>
+int main(){
+char *a = "India";
+char b[] = "India";
+a = a+1;//line 5
+b = b+1;//line 6
+}
+
+
+line 6 will give error because it is trying to assing name of array(b) to a new address. In C, an array name is not a modifiable left value. If we want to modify a pointer
+we should use a pointer variable like *a, that's why line 5 does not give any error.
+
+Sample code is : sol_3.c
+
+Use following command for exection...
+gcc sol_3.c -o sol_3 && ./sol_3
